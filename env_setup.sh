@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if[-d "env"]
+if [-d "env"]
     then
         echo "The enviroment is exist"
     else
