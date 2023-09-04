@@ -1,5 +1,5 @@
 pipeline{
-    agentany
+    agent any
     stages{
         stage("setup pythone virtual enviroment"){
             steps{
