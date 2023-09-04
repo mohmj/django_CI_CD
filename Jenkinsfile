@@ -1,4 +1,4 @@
-pipleline{
+pipeline{
     agentany
     stages{
         stage("setup pythone virtual enviroment"){
