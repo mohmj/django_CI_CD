@@ -4,7 +4,7 @@ pipeline{
         stage("setup pythone virtual enviroment"){
             steps{
                 sh '''
-                chmod +x envsetup.sh
+                chmod +x env_setup.sh
                 ./env_setup.sh
             '''
             }
